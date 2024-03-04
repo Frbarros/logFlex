@@ -1,0 +1,66 @@
+:root {
+
+  font-family: 'Roboto', sans-serif;
+  
+  --background: #ffffff;
+  --font-color: #100C05;
+  --background-button: #F7B533;
+  --background-button-hover: #c99504;
+  --background-detalhe-button: #F7B533;
+  --background-editar-button:#3CB371;
+  --background-excluir-button: #FF6347;
+  --font-button: #100C05;
+  --text-field-background: #D9D9D9;
+  --background-header: #3CA393;
+  --background-footer: #F7B533;
+  --font-title-color: #ffffff;
+  --font-color-2: #F7B533;
+  --background-rastreio:#3CB371;
+  --font-color-rastreio:#ffffff;
+
+  --background-dark: #363636;
+  --font-color-dark: #ffffff;
+  --background-button-dark: #ffffff;
+  --background-button-hover-dark: #ffffff;
+  --font-button-dark: #000000;
+  --text-field-background-dark: #ffffff;
+  --background-header-dark: #ffffff;
+  --background-footer-dark: #ffffff;
+  --font-title-color-dark: #100C05;
+  --font-color-2-dark:  #ffffff;
+  --background-detalhe-button-dark: #363636;
+  --background-excluir-button-dark:#363636;
+  --background-editar-button-dark: #363636;
+  --background-dark-footer-header: #404040;
+  --background-ratreio-dark:#ffffff;
+  --font-color-rastreio-dark: #100C05;
+  --footer-title:var(--background)
+
+}
+
+.dark-mode {
+  --background: var(--background-dark);
+  --font-color: var(--font-color-dark);
+  --background-button: var(--background-button-dark);
+  --background-button-hover: var(--background-button-hover-dark);
+  --font-button: var(--font-button-dark);
+  --text-field-background: var(--text-field-background-dark);
+  --background-header: var(--background-dark-footer-header);
+  --background-footer: var(--background-dark-footer-header);
+  --footer-title:var(--background);
+  --font-title-color: var(--font-color-2-dark);
+  --font-color-2: var(--font-color-2-dark);
+  --background-detalhe-button:var( --background-detalhe-button-dark);
+  --background-editar-button: var( --background-editar-button-dark);
+  --background-excluir-button:var( --background-excluir-button-dark);
+  --background-rastreio:var(--background-ratreio-dark);
+  --font-color-rastreio:var(--font-color-rastreio-dark);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--background);
+  color: var(--font-color);
+
+}
